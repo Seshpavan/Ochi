@@ -12,8 +12,8 @@ const LandingPage = () => {
                         <div key={index} className="masker">
                             <div className="w-fit flex items-center overflow-hidden">
                                 {index === 1 && (
-                                    <motion.div initial={{ width: 0 }} animate={{ width: "9vw" }} transition={{ ease: [0.83, 0, 0.17, 1], duration: 1 }} className="w-[9vw] h-[5.7vw] mr-2 mt-[1vw] rounded-lg">
-                                        <img src={abc} alt="" className="-mt-[1.2vw] ml-0.5 md:ml-0 md:mt-0 scale-120 md:scale-100 h-[7vw] w-full md:h-full object-cover rounded-lg" />
+                                    <motion.div initial={{ width: 0 }} animate={{ width: "10vw" }} transition={{ ease: [0.83, 0, 0.17, 1], duration: 1 }} className="w-[9vw] h-[5.7vw] mr-2 mt-[1vw] rounded-lg">
+                                        <img src={abc} alt="" className="-mt-[.7vw] ml-0.5 md:ml-0 md:mt-0 scale-120 md:scale-100 h-[7vw] w-full md:h-full object-cover rounded-lg" />
                                     </motion.div>
                                 )}
                                 <h1 className="uppercase text-[10vw] md:text-[7.5vw] font-[700] tracking-tight leading-[8vw] md:leading-[6.5vw]">{text}</h1>
@@ -22,7 +22,7 @@ const LandingPage = () => {
                     )
                 })}
             </div>
-            <div className="border-t-[1px]  border-zinc-400 mt-[40vh] md:mt-28 flex flex-col md:flex-row justify-between py-3 px-4 md:px-20">
+            <div className="border-t-[1px]  border-zinc-400 mt-[30vh] md:mt-28 flex flex-col md:flex-row justify-between py-3 px-4 md:px-20">
                 {['For public and private companies', 'From first pitch to IPO'].map((item, index) => {
                     return (
                         <div key={index} className="  text-[4vw] md:text-[1.2vw] pb-7 md:p-0 font-[400] leading-[6vw] md:leading-[2.5vw] text-zinc-900  md:text-left">{item}</div>
